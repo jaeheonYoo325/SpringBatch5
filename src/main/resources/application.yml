@@ -1,0 +1,17 @@
+spring:
+#  datasource:
+#    meta:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://192.168.111.100:3308/springbatch_meta_db?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+#      username: root
+#      password: password
+#
+#    data:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://192.168.111.100:3308/springbatch_data_db?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+#      username: root
+#      password: password
+
+  batch:
+    job:
+      enabled: false
