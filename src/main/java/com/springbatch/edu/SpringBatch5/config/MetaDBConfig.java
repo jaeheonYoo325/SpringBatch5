@@ -17,7 +17,6 @@ public class MetaDBConfig {
         return new DataSourceTransactionManager(metaDBSource());
     }
 
-
     @Primary
     @Bean
     public DataSource metaDBSource() {
